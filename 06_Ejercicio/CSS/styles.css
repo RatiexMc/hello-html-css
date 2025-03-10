@@ -1,0 +1,19 @@
+*{
+    color: red;
+    font-family: arial;
+  }
+  li{
+    color: blue;
+  }
+  .mensaje{
+    color: green;
+    font-family: italic;
+    font-weight: bold;
+  }
+  #python{
+    color: orange;
+    font-weight: bold;
+  }
+  
+  
+  

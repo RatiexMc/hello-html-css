@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form action="01_index.html" method="post">
+        <p><label for="nombre"> Nombre:<input type="text" id="nombre"></label></p>
+        <p><label for="nombre"> Apellido:<input type="text" id="apellido"></label></p>
+        <p><label for="nombre"> Edad:<input type="text" id="edad"></label></p>
+        <p><label for="observacion">Observacion <textarea id="observacion"></textarea></label></p>
+        <p><label>
+                Estatura:
+                <select id="estatura">
+                    <option value="1,50"> 1,50 </option>
+                    <option value="1,51 a 1,60">1,51 a 1,60mts </option>
+                    <option value="1,61 a 1,70" selected>1,61 a 1,70mts </option>
+                    <option value="1,71 a 1,80">1,71 a 1,80mts </option>
+                    <option value="1,81 a 1,90">1,81 a 1,90mts </option>
+                    <option value="1,90" disabled>1,90 </option>
+                </select>
+            </label></p>
+        <p><b>Color de Ojos</b></p>
+        <input type="checkbox" values="marron"> <label>Marrón</label> <br>
+        <input type="checkbox" values="verde"> <label>Verde</label> <br>
+        <input type="checkbox" values="negro"> <label>Negro</label> <br>
+        <input type="checkbox" values="celeste"> <label>Celeste</label> <br>
+        <p><b>Color favorito</b></p>
+        <input type="radio" values="rojo"> <label>Rojo</label>
+        <input type="radio" values="amarillo"> <label>Amarillo</label>
+        <input type="radio" values="gris"> <label>Gris</label>
+        <input type="radio" values="blanco"> <label>Blanco</label>
+        <br>
+    </form>
+    <br>
+    <br>
+    <a href="../01_Ejercicio/01_index.html">Ir a 01_index.html</a>
+    <br>
+</body>
+
+</html>
